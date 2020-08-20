@@ -32,7 +32,7 @@ const List<String> cryptoList = [
 ];
 
 const coinAPIURL = 'https://rest.coinapi.io/v1/exchangerate';
-const apiKey = '168A1C23-0BAD-4F57-A7FC-8623081E007F';
+const apiKey = 'REPLACE-YOUR-API-KEY';
 
 class CoinData {
   Future getCoinData(String selectedCurrency) async {
